@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.App > div {
+  margin-bottom: 10px;
+}
+
+input[type=radio]:not(:first-of-type) {
+  margin-left: 15px;
+}
+
+label {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+  text-align: right;
+  vertical-align: top;
+  width: 100px;
+}
